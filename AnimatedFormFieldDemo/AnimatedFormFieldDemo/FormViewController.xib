@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FormViewController" customModule="AnimatedFormFieldDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="W2w-ma-8wv" id="ACl-pP-Xg5"/>
+                <outlet property="titleLabel" destination="9yU-5L-a12" id="5oN-sy-uKF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnR-qm-bk3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type in any of the textfields..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yU-5L-a12">
+                            <rect key="frame" x="75" y="29.5" width="224.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.27058823529999998" green="0.79215686269999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="9yU-5L-a12" firstAttribute="centerY" secondItem="LnR-qm-bk3" secondAttribute="centerY" constant="10" id="Aw2-ni-Los"/>
+                        <constraint firstAttribute="height" constant="60" id="UX6-Gm-Q7o"/>
+                        <constraint firstItem="9yU-5L-a12" firstAttribute="centerX" secondItem="LnR-qm-bk3" secondAttribute="centerX" id="kmJ-Xd-mQ4"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W2w-ma-8wv">
+                    <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="XOO-Wx-QGG"/>
+                        <outlet property="delegate" destination="-1" id="ffO-PI-Dv9"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="W2w-ma-8wv" firstAttribute="top" secondItem="LnR-qm-bk3" secondAttribute="bottom" id="2Dp-te-deN"/>
+                <constraint firstItem="LnR-qm-bk3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3xl-4B-DbE"/>
+                <constraint firstAttribute="trailing" secondItem="W2w-ma-8wv" secondAttribute="trailing" id="OyI-Pl-e8M"/>
+                <constraint firstItem="LnR-qm-bk3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SbY-ma-Q4e"/>
+                <constraint firstAttribute="trailing" secondItem="LnR-qm-bk3" secondAttribute="trailing" id="hkO-Q2-T7g"/>
+                <constraint firstAttribute="bottom" secondItem="W2w-ma-8wv" secondAttribute="bottom" id="qIs-Cw-4Th"/>
+                <constraint firstItem="W2w-ma-8wv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zKa-zD-O1n"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
