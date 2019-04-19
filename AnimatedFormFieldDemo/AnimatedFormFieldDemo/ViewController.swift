@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func demoTapped(sender: AnyObject) {
-        let viewController = FormViewController()
-        self.presentViewController(viewController, animated: true, completion: nil)
+        let viewController = FormViewController(nibName: "FormViewController", bundle: nil)
+        self.present(viewController, animated: true, completion: nil)
     }
 
 }

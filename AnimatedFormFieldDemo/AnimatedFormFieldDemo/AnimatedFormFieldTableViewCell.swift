@@ -19,9 +19,9 @@ class AnimatedFormFieldTableViewCell: UITableViewCell, UITextFieldDelegate {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.cellTextfield.delegate = self
-        self.cellLabel.textColor = UIColor.grayColor()
+        self.cellLabel.textColor = UIColor.gray
         self.textFieldDistanceFromTopConstraint.constant = 0
-        self.cellTextfield.addTarget(self, action: #selector(self.textFieldDidChange), forControlEvents: .EditingChanged)
+        self.cellTextfield.addTarget(self, action: #selector(self.textFieldDidChange), for: .editingChanged)
         self.cellLabel.translatesAutoresizingMaskIntoConstraints = true
         self.cellLabel.sizeToFit()
     }
@@ -30,20 +30,17 @@ class AnimatedFormFieldTableViewCell: UITableViewCell, UITextFieldDelegate {
         guard !self.scaledLabelMode else { return }
         self.scaledLabelMode = true
         
-        
-        dispatch_async(dispatch_get_main_queue()){
+        DispatchQueue.main.async {
             self.textFieldDistanceFromTopConstraint.constant = 10
-            
+
             let scaleLabelBlock = {
-                self.cellLabel.transform = CGAffineTransformMakeScale(0.6, 0.6)
+                self.cellLabel.transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
                 self.cellLabel.frame.origin = CGPoint(x: 15, y: 14)
                 self.layoutIfNeeded()
-                
+
             }
-            
-            animated ? UIView.animateWithDuration(0.3, delay: 0, options: .CurveEaseOut, animations:scaleLabelBlock ,completion: nil ) : scaleLabelBlock()
-            
-            
+
+            animated ? UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut, animations:scaleLabelBlock ,completion: nil ) : scaleLabelBlock()
         }
     }
     
@@ -51,15 +48,15 @@ class AnimatedFormFieldTableViewCell: UITableViewCell, UITextFieldDelegate {
         guard self.scaledLabelMode else { return }
         self.scaledLabelMode = false
         guard let cellLabel = self.cellLabel else { return }
-        dispatch_async(dispatch_get_main_queue()){
+        DispatchQueue.main.async {
             self.textFieldDistanceFromTopConstraint.constant = 0
-            UIView.animateWithDuration(0.3, delay: 0, options: .CurveEaseOut,
-                                       animations: {
-                                        cellLabel.transform = CGAffineTransformMakeScale(1,1)
-                                        self.cellLabel.frame.origin = CGPoint(x: 15, y: 20)
-                                        self.layoutIfNeeded()
-                                        
-                },completion:nil)
+            UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut,
+                           animations: {
+                            cellLabel.transform = CGAffineTransform(scaleX: 1,y: 1)
+                            self.cellLabel.frame.origin = CGPoint(x: 15, y: 20)
+                            self.layoutIfNeeded()
+
+            },completion:nil)
         }
     }
     
@@ -69,7 +66,7 @@ class AnimatedFormFieldTableViewCell: UITableViewCell, UITextFieldDelegate {
         self.cellLabel.sizeToFit()
     }
     
-    func textFieldDidChange(textField: UITextField) {
+    @objc func textFieldDidChange(textField: UITextField) {
         if textField.text == "" {
             self.growLabel()
         }
@@ -80,21 +77,21 @@ class AnimatedFormFieldTableViewCell: UITableViewCell, UITextFieldDelegate {
     
     // MARK: UITextFieldDelegate
     
-    func textFieldDidBeginEditing(textField: UITextField) {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
         delegate?.textFieldDidBeginEditing?(textField)
     }
     
-    func textFieldDidEndEditing(textField: UITextField) {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         delegate?.textFieldDidEndEditing?(textField)
     }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return delegate?.textFieldShouldReturn?(textField) ?? false
         
     }
     
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        return delegate?.textField?(textField, shouldChangeCharactersInRange: range, replacementString: string) ?? true
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        return delegate?.textField?(textField, shouldChangeCharactersIn: range, replacementString: string) ?? true
     }
     
 }
