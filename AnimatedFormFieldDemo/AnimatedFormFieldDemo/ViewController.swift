@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func demoTapped(sender: AnyObject) {
+    @IBAction func demoTapped(_ sender: Any) {
         let viewController = FormViewController(nibName: "FormViewController", bundle: nil)
         self.present(viewController, animated: true, completion: nil)
     }
