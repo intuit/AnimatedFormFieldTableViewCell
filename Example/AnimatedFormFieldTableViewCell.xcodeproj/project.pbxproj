@@ -144,6 +144,7 @@
 			knownRegions = (
 				en,
 				Base,
+				global,
 			);
 			mainGroup = 1CE136EA1E3E8B4E00EB7A8A;
 			productRefGroup = 1CE136F41E3E8B4E00EB7A8A /* Products */;
