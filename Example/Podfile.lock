@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedFormFieldTableViewCell (0.1.0)
+
+DEPENDENCIES:
+  - AnimatedFormFieldTableViewCell (from `../`)
+
+EXTERNAL SOURCES:
+  AnimatedFormFieldTableViewCell:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimatedFormFieldTableViewCell: f1ca70a1e828f269a328e804f642eb697fdfda83
+
+PODFILE CHECKSUM: 058da81fe32dc00c76185e6076b9cc8e9f2fea3e
+
+COCOAPODS: 1.7.0

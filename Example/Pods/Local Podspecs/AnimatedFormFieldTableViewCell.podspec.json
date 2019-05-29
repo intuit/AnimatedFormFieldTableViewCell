@@ -1,0 +1,22 @@
+{
+  "name": "AnimatedFormFieldTableViewCell",
+  "version": "0.1.0",
+  "summary": "A short description of AnimatedFormFieldTableViewCell.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ido Zaltzberg/AnimatedFormFieldTableViewCell",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ido Zaltzberg": "ido.zaltzberg@autodesk.com"
+  },
+  "source": {
+    "git": "https://github.com/Ido Zaltzberg/AnimatedFormFieldTableViewCell.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimatedFormFieldTableViewCell/Classes/**/*"
+}

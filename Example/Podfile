@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimatedFormFieldTableViewCell_Example' do
+  pod 'AnimatedFormFieldTableViewCell', :path => '../'
+
+  target 'AnimatedFormFieldTableViewCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
