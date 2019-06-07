@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00BD2596229F21BB0007F60A /* AnimatedFormFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00BD2592229F21BB0007F60A /* AnimatedFormFieldTableViewCell.xib */; };
-		00BD259A229F223B0007F60A /* AnimatedFormFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD2593229F21BB0007F60A /* AnimatedFormFieldTableViewCell.swift */; };
 		00BD25A0229F23780007F60A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BD259C229F23780007F60A /* LaunchScreen.storyboard */; };
 		00BD25A1229F23780007F60A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BD259E229F23780007F60A /* Main.storyboard */; };
 		00BD25E3229F27AC0007F60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BD25E1229F27AC0007F60A /* Assets.xcassets */; };
@@ -16,20 +14,22 @@
 		1CE136F91E3E8B4E00EB7A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE136F81E3E8B4E00EB7A8A /* ViewController.swift */; };
 		1CE1370A1E3E8BB600EB7A8A /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE137081E3E8BB600EB7A8A /* FormViewController.swift */; };
 		1CE1370B1E3E8BB600EB7A8A /* FormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE137091E3E8BB600EB7A8A /* FormViewController.xib */; };
+		E740BFD2A27C52D548B10DC8 /* Pods_AnimatedFormFieldTableViewCell_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3115352EE3570293E89DC17 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00BD2592229F21BB0007F60A /* AnimatedFormFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnimatedFormFieldTableViewCell.xib; path = AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.xib; sourceTree = SOURCE_ROOT; };
-		00BD2593229F21BB0007F60A /* AnimatedFormFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedFormFieldTableViewCell.swift; path = AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		00BD259D229F23780007F60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00BD259F229F23780007F60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		00BD25E2229F27AC0007F60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Base; path = Assets.xcassets; sourceTree = "<group>"; };
-		1CE136F31E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedFormFieldTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE136F31E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedFormFieldTableViewCell_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE136F61E3E8B4E00EB7A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE136F81E3E8B4E00EB7A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CE137021E3E8B4E00EB7A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CE137081E3E8BB600EB7A8A /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		1CE137091E3E8BB600EB7A8A /* FormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormViewController.xib; sourceTree = "<group>"; };
+		5B17A8E8536EFCAD90892EC3 /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig"; path = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B3115352EE3570293E89DC17 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedFormFieldTableViewCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48468DED851F1A6CEB5CD44 /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig"; path = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E740BFD2A27C52D548B10DC8 /* Pods_AnimatedFormFieldTableViewCell_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,13 +49,15 @@
 			children = (
 				1CE136F51E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell */,
 				1CE136F41E3E8B4E00EB7A8A /* Products */,
+				7F6FDA38F866E0E301670155 /* Pods */,
+				C6255D6176B0CCFA4D6219AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1CE136F41E3E8B4E00EB7A8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CE136F31E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell.app */,
+				1CE136F31E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,28 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				1CE137131E3E918900EB7A8A /* Main Files */,
-				1CE137121E3E917300EB7A8A /* Libraries */,
-				1CE137111E3E915500EB7A8A /* Demo */,
 			);
 			path = AnimatedFormFieldTableViewCell;
-			sourceTree = "<group>";
-		};
-		1CE137111E3E915500EB7A8A /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				1CE137081E3E8BB600EB7A8A /* FormViewController.swift */,
-				1CE137091E3E8BB600EB7A8A /* FormViewController.xib */,
-			);
-			name = Demo;
-			sourceTree = "<group>";
-		};
-		1CE137121E3E917300EB7A8A /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				00BD2593229F21BB0007F60A /* AnimatedFormFieldTableViewCell.swift */,
-				00BD2592229F21BB0007F60A /* AnimatedFormFieldTableViewCell.xib */,
-			);
-			name = Libraries;
 			sourceTree = "<group>";
 		};
 		1CE137131E3E918900EB7A8A /* Main Files */ = {
@@ -93,6 +76,8 @@
 				00BD25E1229F27AC0007F60A /* Assets.xcassets */,
 				00BD259C229F23780007F60A /* LaunchScreen.storyboard */,
 				00BD259E229F23780007F60A /* Main.storyboard */,
+				1CE137081E3E8BB600EB7A8A /* FormViewController.swift */,
+				1CE137091E3E8BB600EB7A8A /* FormViewController.xib */,
 				1CE136F61E3E8B4E00EB7A8A /* AppDelegate.swift */,
 				1CE136F81E3E8B4E00EB7A8A /* ViewController.swift */,
 				1CE137021E3E8B4E00EB7A8A /* Info.plist */,
@@ -100,24 +85,43 @@
 			name = "Main Files";
 			sourceTree = "<group>";
 		};
+		7F6FDA38F866E0E301670155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B17A8E8536EFCAD90892EC3 /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */,
+				C48468DED851F1A6CEB5CD44 /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6255D6176B0CCFA4D6219AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3115352EE3570293E89DC17 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CE136F21E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell */ = {
+		1CE136F21E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CE137051E3E8B4E00EB7A8A /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell" */;
+			buildConfigurationList = 1CE137051E3E8B4E00EB7A8A /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell_Example" */;
 			buildPhases = (
+				732A0F8CAFCCF68D987F87DC /* [CP] Check Pods Manifest.lock */,
 				1CE136EF1E3E8B4E00EB7A8A /* Sources */,
 				1CE136F01E3E8B4E00EB7A8A /* Frameworks */,
 				1CE136F11E3E8B4E00EB7A8A /* Resources */,
+				62AA0AB28BCCFA9206F5DD14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AnimatedFormFieldTableViewCell;
+			name = AnimatedFormFieldTableViewCell_Example;
 			productName = AnimatedFormFieldDemo;
-			productReference = 1CE136F31E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell.app */;
+			productReference = 1CE136F31E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CE136F21E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell */,
+				1CE136F21E3E8B4E00EB7A8A /* AnimatedFormFieldTableViewCell_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -163,7 +167,6 @@
 			files = (
 				00BD25A0229F23780007F60A /* LaunchScreen.storyboard in Resources */,
 				1CE1370B1E3E8BB600EB7A8A /* FormViewController.xib in Resources */,
-				00BD2596229F21BB0007F60A /* AnimatedFormFieldTableViewCell.xib in Resources */,
 				00BD25A1229F23780007F60A /* Main.storyboard in Resources */,
 				00BD25E3229F27AC0007F60A /* Assets.xcassets in Resources */,
 			);
@@ -171,13 +174,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62AA0AB28BCCFA9206F5DD14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedFormFieldTableViewCell.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732A0F8CAFCCF68D987F87DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimatedFormFieldTableViewCell_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CE136EF1E3E8B4E00EB7A8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1CE1370A1E3E8BB600EB7A8A /* FormViewController.swift in Sources */,
-				00BD259A229F223B0007F60A /* AnimatedFormFieldTableViewCell.swift in Sources */,
 				1CE136F91E3E8B4E00EB7A8A /* ViewController.swift in Sources */,
 				1CE136F71E3E8B4E00EB7A8A /* AppDelegate.swift in Sources */,
 			);
@@ -328,6 +373,7 @@
 		};
 		1CE137061E3E8B4E00EB7A8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B17A8E8536EFCAD90892EC3 /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AHR2UGS6WJ;
 				INFOPLIST_FILE = "$(SRCROOT)/AnimatedFormFieldTableViewCell/Info.plist";
@@ -340,6 +386,7 @@
 		};
 		1CE137071E3E8B4E00EB7A8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48468DED851F1A6CEB5CD44 /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AHR2UGS6WJ;
 				INFOPLIST_FILE = "$(SRCROOT)/AnimatedFormFieldTableViewCell/Info.plist";
@@ -362,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CE137051E3E8B4E00EB7A8A /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell" */ = {
+		1CE137051E3E8B4E00EB7A8A /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CE137061E3E8B4E00EB7A8A /* Debug */,

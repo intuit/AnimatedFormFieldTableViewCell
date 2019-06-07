@@ -7,26 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		188A88B0D17ACF045A886AD474F8E5CE /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B12C13CCAEBC8C9C2F7EEB24B74CA65 /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m */; };
-		1CF620A97232CD5460F3BBC134B73A97 /* Pods-AnimatedFormFieldTableViewCell_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D0ACF2F90E6CF678999608EB31BB96 /* Pods-AnimatedFormFieldTableViewCell_Tests-dummy.m */; };
-		61E86709FA775A01E1D3920938A1F8D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7FB7FDD98BC759D6EAF1018D49A26BF9 /* Pods-AnimatedFormFieldTableViewCell_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D7F1E8750813ADEB6EDAC7F4DBE159 /* Pods-AnimatedFormFieldTableViewCell_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92677DA4A61B4F693E37C7801CFB4A26 /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C99684C1064863092457E28CB29B65A /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96C5DDC575309047D975640D7DD02531 /* AnimatedFormFieldTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A198257032ADD010DBBDE5DFD0BFE8CD /* AnimatedFormFieldTableViewCell-dummy.m */; };
-		9D3B1EE6295500F22AB205D730D4D730 /* AnimatedFormFieldTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E987AFFE3A725C98F27F44D325861C5 /* AnimatedFormFieldTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD8B8FF6054FC9B1E012C88318D1A9C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		188A88B0D17ACF045A886AD474F8E5CE /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307A78567F1AE7422DC1F3330072BCE /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m */; };
+		229A3F73F337A93C171EFFC8A400B90B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		24E829A794451AC5619EDCF0DEE1F4F0 /* AnimatedFormFieldTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83457D817733D67BE40F41B56EF8B7E0 /* AnimatedFormFieldTableViewCell-dummy.m */; };
+		3EE8EE50BC62EB8C24032C251EE7AD4F /* AnimatedFormFieldTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1034F615C772C3FAAE6B11A72E82B0 /* AnimatedFormFieldTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CFFCAAB05AD69C6DFE9325F63309808 /* AnimatedFormFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709EB1DDE87DE927D331976B9EC8A67 /* AnimatedFormFieldTableViewCell.swift */; };
+		92677DA4A61B4F693E37C7801CFB4A26 /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE0CA575BC8496673856505E525FF47 /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54CBC097DB9B23BDB78BC5942989160 /* AnimatedFormFieldTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D5EA8AB9060696DEDDA19F08AB15ED56 /* AnimatedFormFieldTableViewCell.xib */; };
 		C87D41C1A6746EE4437DA10E52804538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E5532D766095265659D86A4944AB533D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D29224120397FAD375DCD7DB526CB0 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		143766EB2954ED78427D791EBDEC95F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D53838BC91BBB93242F36A1D22777E8;
-			remoteInfo = "Pods-AnimatedFormFieldTableViewCell_Example";
-		};
 		635EB7606FFBC53CDC2AE9D4C25866F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -37,46 +28,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047774009C9A450654993E76D0BC16F9 /* AnimatedFormFieldTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedFormFieldTableViewCell-Info.plist"; sourceTree = "<group>"; };
-		0B452EEB831B9E951711AA96B359778F /* AnimatedFormFieldTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedFormFieldTableViewCell.modulemap; sourceTree = "<group>"; };
-		0C6D6C18FF71C8BCCEA3D9DC62F1CAD6 /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		103D42C093C48E7C342ED5670F1C857B /* Pods-AnimatedFormFieldTableViewCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimatedFormFieldTableViewCell_Example.modulemap"; sourceTree = "<group>"; };
-		1502DBB3847135DBAE35A3489E793F46 /* Pods-AnimatedFormFieldTableViewCell_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedFormFieldTableViewCell_Example-Info.plist"; sourceTree = "<group>"; };
+		0CDC6C7EDBD0861B110F6BCA157BE1ED /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig"; sourceTree = "<group>"; };
+		29F64F526178F4C64576F0B99CC7C464 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		462040829EC0AF52AD286214E0961AEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		508225F34D29858C30C45A1F47648FA4 /* AnimatedFormFieldTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedFormFieldTableViewCell.framework; path = AnimatedFormFieldTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		570CAE316313ACD3A25A34F7BF25E559 /* Pods-AnimatedFormFieldTableViewCell_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimatedFormFieldTableViewCell_Tests.modulemap"; sourceTree = "<group>"; };
-		6C02365EA581A840203E1E6A525617ED /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6C99684C1064863092457E28CB29B65A /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h"; sourceTree = "<group>"; };
-		7DF454883145A67C16C917F785579A32 /* Pods-AnimatedFormFieldTableViewCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedFormFieldTableViewCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		81E1579983D22352D39F70ADE1954640 /* Pods-AnimatedFormFieldTableViewCell_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedFormFieldTableViewCell_Tests-Info.plist"; sourceTree = "<group>"; };
-		820F73FFEDF8F33AA4218DA3F52306D0 /* AnimatedFormFieldTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedFormFieldTableViewCell.xcconfig; sourceTree = "<group>"; };
-		82D0ACF2F90E6CF678999608EB31BB96 /* Pods-AnimatedFormFieldTableViewCell_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatedFormFieldTableViewCell_Tests-dummy.m"; sourceTree = "<group>"; };
-		854EDC464386C6A5BF7EF5223304E549 /* Pods-AnimatedFormFieldTableViewCell_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedFormFieldTableViewCell_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		88D7F1E8750813ADEB6EDAC7F4DBE159 /* Pods-AnimatedFormFieldTableViewCell_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatedFormFieldTableViewCell_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8B12C13CCAEBC8C9C2F7EEB24B74CA65 /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatedFormFieldTableViewCell_Example-dummy.m"; sourceTree = "<group>"; };
-		8E987AFFE3A725C98F27F44D325861C5 /* AnimatedFormFieldTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedFormFieldTableViewCell-umbrella.h"; sourceTree = "<group>"; };
-		957AB72BE1EF65E6C4C88B75E394601E /* Pods-AnimatedFormFieldTableViewCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedFormFieldTableViewCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		95927461699C7BF5E9CEC19CF52B389E /* AnimatedFormFieldTableViewCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimatedFormFieldTableViewCell.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		976A1A5D06336F03C8E28B4E1450571B /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		988BD6EAA53860F887AB40B9BEB86D64 /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5307A78567F1AE7422DC1F3330072BCE /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatedFormFieldTableViewCell_Example-dummy.m"; sourceTree = "<group>"; };
+		5A2E2553D72085DBD9D766E2FF553AA8 /* AnimatedFormFieldTableViewCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimatedFormFieldTableViewCell.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6709EB1DDE87DE927D331976B9EC8A67 /* AnimatedFormFieldTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFormFieldTableViewCell.swift; path = AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.swift; sourceTree = "<group>"; };
+		7F318F9FC259433C61DA53FF7D3B288D /* AnimatedFormFieldTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedFormFieldTableViewCell.framework; path = AnimatedFormFieldTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83457D817733D67BE40F41B56EF8B7E0 /* AnimatedFormFieldTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedFormFieldTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		8ED7542AFC6E3A09F0778A5EA4E34E1F /* AnimatedFormFieldTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedFormFieldTableViewCell.modulemap; sourceTree = "<group>"; };
+		951C5F1EF767309DE05A3E9C994DCC9D /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CCD3FD7185DE5DC485E63FE54D8CE3C /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A198257032ADD010DBBDE5DFD0BFE8CD /* AnimatedFormFieldTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedFormFieldTableViewCell-dummy.m"; sourceTree = "<group>"; };
-		A8D29224120397FAD375DCD7DB526CB0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AnimatedFormFieldTableViewCell/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C78D9652AF66121C1DEDA991B4C647A6 /* Pods_AnimatedFormFieldTableViewCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimatedFormFieldTableViewCell_Tests.framework; path = "Pods-AnimatedFormFieldTableViewCell_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB37EC9E56F7432E6411F78B5C071CBB /* Pods-AnimatedFormFieldTableViewCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatedFormFieldTableViewCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E594183A2C213AAE5ECE32B16DB00758 /* AnimatedFormFieldTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedFormFieldTableViewCell-prefix.pch"; sourceTree = "<group>"; };
-		E6CBCBF681825ECC65A1D2EB45899EDE /* Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EA9D35B1491395AEEB50AD6F4AF3C8D6 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimatedFormFieldTableViewCell_Example.framework; path = "Pods-AnimatedFormFieldTableViewCell_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F31E5B65DE4BE8280266609954D609A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9EDB71D3B735CEBA941E273A04A6139F /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A0B78EDC9006CAE110355FC70DB36B2E /* Pods-AnimatedFormFieldTableViewCell_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedFormFieldTableViewCell_Example-Info.plist"; sourceTree = "<group>"; };
+		B5918E7CBA539CD5A9482F0807A599BD /* Pods-AnimatedFormFieldTableViewCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimatedFormFieldTableViewCell_Example.modulemap"; sourceTree = "<group>"; };
+		C49E18782C30692BB8E219B4F001554F /* Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA6505C15A9B6713C79D8D298BB6F7DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB1034F615C772C3FAAE6B11A72E82B0 /* AnimatedFormFieldTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedFormFieldTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		D5EA8AB9060696DEDDA19F08AB15ED56 /* AnimatedFormFieldTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AnimatedFormFieldTableViewCell.xib; path = AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.xib; sourceTree = "<group>"; };
+		DA508DEAB416703C517885BB8E226AAB /* AnimatedFormFieldTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedFormFieldTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		DADCE2CB1F56FC96588F85CF623EFF2B /* AnimatedFormFieldTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedFormFieldTableViewCell.xcconfig; sourceTree = "<group>"; };
+		DEE0CA575BC8496673856505E525FF47 /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h"; sourceTree = "<group>"; };
+		E68B1E424867C8A4AD00F7EA7C2EFA03 /* AnimatedFormFieldTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedFormFieldTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		F708F05C502109F591E5AB3CF0460F01 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimatedFormFieldTableViewCell_Example.framework; path = "Pods-AnimatedFormFieldTableViewCell_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		253F409268903E7B83197F77A806521A /* Frameworks */ = {
+		1892F83EBC6DAEB02AA7F37685DA828B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD8B8FF6054FC9B1E012C88318D1A9C2 /* Foundation.framework in Frameworks */,
+				229A3F73F337A93C171EFFC8A400B90B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,76 +71,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1A73D05B884F125A5021935A5701893 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61E86709FA775A01E1D3920938A1F8D4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04DC2DFF42A62E660B12EF285B600EC9 /* AnimatedFormFieldTableViewCell */ = {
+		1A28CCE32552FCAD2CA1BED67210F165 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8D29224120397FAD375DCD7DB526CB0 /* ReplaceMe.swift */,
-				D709E7153D862E08E2FE9D89EF234510 /* Pod */,
-				FE5ABDF7D2D26CDED2840B0ACF078030 /* Support Files */,
-			);
-			name = AnimatedFormFieldTableViewCell;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		0B40D02A5B6C55F11425BC0C385A17A8 /* Pods-AnimatedFormFieldTableViewCell_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				570CAE316313ACD3A25A34F7BF25E559 /* Pods-AnimatedFormFieldTableViewCell_Tests.modulemap */,
-				DB37EC9E56F7432E6411F78B5C071CBB /* Pods-AnimatedFormFieldTableViewCell_Tests-acknowledgements.markdown */,
-				854EDC464386C6A5BF7EF5223304E549 /* Pods-AnimatedFormFieldTableViewCell_Tests-acknowledgements.plist */,
-				82D0ACF2F90E6CF678999608EB31BB96 /* Pods-AnimatedFormFieldTableViewCell_Tests-dummy.m */,
-				81E1579983D22352D39F70ADE1954640 /* Pods-AnimatedFormFieldTableViewCell_Tests-Info.plist */,
-				88D7F1E8750813ADEB6EDAC7F4DBE159 /* Pods-AnimatedFormFieldTableViewCell_Tests-umbrella.h */,
-				7DF454883145A67C16C917F785579A32 /* Pods-AnimatedFormFieldTableViewCell_Tests.debug.xcconfig */,
-				957AB72BE1EF65E6C4C88B75E394601E /* Pods-AnimatedFormFieldTableViewCell_Tests.release.xcconfig */,
-			);
-			name = "Pods-AnimatedFormFieldTableViewCell_Tests";
-			path = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Tests";
-			sourceTree = "<group>";
-		};
-		224F053F0199CAD93BB57FFB45E466A1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BE6C1524D2FB478293EB79B2BE237E95 /* Pods-AnimatedFormFieldTableViewCell_Example */,
-				0B40D02A5B6C55F11425BC0C385A17A8 /* Pods-AnimatedFormFieldTableViewCell_Tests */,
+				5B0CD80F20CBDDC86BC0E8B2653F55E0 /* Pods-AnimatedFormFieldTableViewCell_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		281EA83C1D9F60C32B2C15BFE9015B91 /* Development Pods */ = {
+		5B0CD80F20CBDDC86BC0E8B2653F55E0 /* Pods-AnimatedFormFieldTableViewCell_Example */ = {
 			isa = PBXGroup;
 			children = (
-				04DC2DFF42A62E660B12EF285B600EC9 /* AnimatedFormFieldTableViewCell */,
+				B5918E7CBA539CD5A9482F0807A599BD /* Pods-AnimatedFormFieldTableViewCell_Example.modulemap */,
+				9CCD3FD7185DE5DC485E63FE54D8CE3C /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.markdown */,
+				951C5F1EF767309DE05A3E9C994DCC9D /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.plist */,
+				5307A78567F1AE7422DC1F3330072BCE /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m */,
+				C49E18782C30692BB8E219B4F001554F /* Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh */,
+				A0B78EDC9006CAE110355FC70DB36B2E /* Pods-AnimatedFormFieldTableViewCell_Example-Info.plist */,
+				DEE0CA575BC8496673856505E525FF47 /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h */,
+				9EDB71D3B735CEBA941E273A04A6139F /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */,
+				0CDC6C7EDBD0861B110F6BCA157BE1ED /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */,
+			);
+			name = "Pods-AnimatedFormFieldTableViewCell_Example";
+			path = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example";
+			sourceTree = "<group>";
+		};
+		5EB4C8958FE1DE8E9176E35F6E0F9A5F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC568662539A06CB0867593AF4D3C6DE /* AnimatedFormFieldTableViewCell */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BE6C1524D2FB478293EB79B2BE237E95 /* Pods-AnimatedFormFieldTableViewCell_Example */ = {
+		6A312D1C4653B60C19B133CE84908D41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				103D42C093C48E7C342ED5670F1C857B /* Pods-AnimatedFormFieldTableViewCell_Example.modulemap */,
-				0C6D6C18FF71C8BCCEA3D9DC62F1CAD6 /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.markdown */,
-				6C02365EA581A840203E1E6A525617ED /* Pods-AnimatedFormFieldTableViewCell_Example-acknowledgements.plist */,
-				8B12C13CCAEBC8C9C2F7EEB24B74CA65 /* Pods-AnimatedFormFieldTableViewCell_Example-dummy.m */,
-				E6CBCBF681825ECC65A1D2EB45899EDE /* Pods-AnimatedFormFieldTableViewCell_Example-frameworks.sh */,
-				1502DBB3847135DBAE35A3489E793F46 /* Pods-AnimatedFormFieldTableViewCell_Example-Info.plist */,
-				6C99684C1064863092457E28CB29B65A /* Pods-AnimatedFormFieldTableViewCell_Example-umbrella.h */,
-				976A1A5D06336F03C8E28B4E1450571B /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */,
-				988BD6EAA53860F887AB40B9BEB86D64 /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */,
+				8ED7542AFC6E3A09F0778A5EA4E34E1F /* AnimatedFormFieldTableViewCell.modulemap */,
+				DADCE2CB1F56FC96588F85CF623EFF2B /* AnimatedFormFieldTableViewCell.xcconfig */,
+				83457D817733D67BE40F41B56EF8B7E0 /* AnimatedFormFieldTableViewCell-dummy.m */,
+				E68B1E424867C8A4AD00F7EA7C2EFA03 /* AnimatedFormFieldTableViewCell-Info.plist */,
+				DA508DEAB416703C517885BB8E226AAB /* AnimatedFormFieldTableViewCell-prefix.pch */,
+				CB1034F615C772C3FAAE6B11A72E82B0 /* AnimatedFormFieldTableViewCell-umbrella.h */,
 			);
-			name = "Pods-AnimatedFormFieldTableViewCell_Example";
-			path = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AnimatedFormFieldTableViewCell";
+			sourceTree = "<group>";
+		};
+		8737D35EC7703D29EBD62B3455D614DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F318F9FC259433C61DA53FF7D3B288D /* AnimatedFormFieldTableViewCell.framework */,
+				F708F05C502109F591E5AB3CF0460F01 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC568662539A06CB0867593AF4D3C6DE /* AnimatedFormFieldTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6709EB1DDE87DE927D331976B9EC8A67 /* AnimatedFormFieldTableViewCell.swift */,
+				D5EA8AB9060696DEDDA19F08AB15ED56 /* AnimatedFormFieldTableViewCell.xib */,
+				EF740D32C85F277E41F3D81A076AC33D /* Pod */,
+				6A312D1C4653B60C19B133CE84908D41 /* Support Files */,
+			);
+			name = AnimatedFormFieldTableViewCell;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -172,10 +154,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				281EA83C1D9F60C32B2C15BFE9015B91 /* Development Pods */,
+				5EB4C8958FE1DE8E9176E35F6E0F9A5F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F55DE4831747669D1BEBC79EA83887A3 /* Products */,
-				224F053F0199CAD93BB57FFB45E466A1 /* Targets Support Files */,
+				8737D35EC7703D29EBD62B3455D614DE /* Products */,
+				1A28CCE32552FCAD2CA1BED67210F165 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,59 +169,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D709E7153D862E08E2FE9D89EF234510 /* Pod */ = {
+		EF740D32C85F277E41F3D81A076AC33D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				95927461699C7BF5E9CEC19CF52B389E /* AnimatedFormFieldTableViewCell.podspec */,
-				462040829EC0AF52AD286214E0961AEC /* LICENSE */,
-				F31E5B65DE4BE8280266609954D609A1 /* README.md */,
+				5A2E2553D72085DBD9D766E2FF553AA8 /* AnimatedFormFieldTableViewCell.podspec */,
+				CA6505C15A9B6713C79D8D298BB6F7DA /* LICENSE */,
+				29F64F526178F4C64576F0B99CC7C464 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		F55DE4831747669D1BEBC79EA83887A3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				508225F34D29858C30C45A1F47648FA4 /* AnimatedFormFieldTableViewCell.framework */,
-				EA9D35B1491395AEEB50AD6F4AF3C8D6 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */,
-				C78D9652AF66121C1DEDA991B4C647A6 /* Pods_AnimatedFormFieldTableViewCell_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FE5ABDF7D2D26CDED2840B0ACF078030 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B452EEB831B9E951711AA96B359778F /* AnimatedFormFieldTableViewCell.modulemap */,
-				820F73FFEDF8F33AA4218DA3F52306D0 /* AnimatedFormFieldTableViewCell.xcconfig */,
-				A198257032ADD010DBBDE5DFD0BFE8CD /* AnimatedFormFieldTableViewCell-dummy.m */,
-				047774009C9A450654993E76D0BC16F9 /* AnimatedFormFieldTableViewCell-Info.plist */,
-				E594183A2C213AAE5ECE32B16DB00758 /* AnimatedFormFieldTableViewCell-prefix.pch */,
-				8E987AFFE3A725C98F27F44D325861C5 /* AnimatedFormFieldTableViewCell-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AnimatedFormFieldTableViewCell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3FD8E268068436598FBB9E5DD7E01539 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D3B1EE6295500F22AB205D730D4D730 /* AnimatedFormFieldTableViewCell-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B63C7A5632B2C62C69FC9AFB5186781 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FB7FDD98BC759D6EAF1018D49A26BF9 /* Pods-AnimatedFormFieldTableViewCell_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A6CD0BC6B116746804672BFB8DAFE08D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,36 +190,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F95D868D3AC0F82754DED2EAAEF5C675 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE8EE50BC62EB8C24032C251EE7AD4F /* AnimatedFormFieldTableViewCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0376A6B5D815A789D5CDFA69F597AFE6 /* Pods-AnimatedFormFieldTableViewCell_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56D65F262C0B2EDAFC35D44335CA4DB8 /* Build configuration list for PBXNativeTarget "Pods-AnimatedFormFieldTableViewCell_Tests" */;
-			buildPhases = (
-				9B63C7A5632B2C62C69FC9AFB5186781 /* Headers */,
-				25D1228346054E34A64919DC51985C66 /* Sources */,
-				253F409268903E7B83197F77A806521A /* Frameworks */,
-				221AC43457DEE43AB792C1DC830992EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E44A2C2350504247CA3862A9F9B8686D /* PBXTargetDependency */,
-			);
-			name = "Pods-AnimatedFormFieldTableViewCell_Tests";
-			productName = "Pods-AnimatedFormFieldTableViewCell_Tests";
-			productReference = C78D9652AF66121C1DEDA991B4C647A6 /* Pods_AnimatedFormFieldTableViewCell_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		076039610163C3CCE8654C126ECD29C6 /* AnimatedFormFieldTableViewCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8C1FB804167563385430563082512FA /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell" */;
+			buildConfigurationList = C7F3AE3ECB45E8662D4F0B060EE812BB /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell" */;
 			buildPhases = (
-				3FD8E268068436598FBB9E5DD7E01539 /* Headers */,
-				4CBD1B639443C449BACCD86FC0C47403 /* Sources */,
-				B1A73D05B884F125A5021935A5701893 /* Frameworks */,
-				243DC5CA418090D70D5A0D04C2358E2A /* Resources */,
+				F95D868D3AC0F82754DED2EAAEF5C675 /* Headers */,
+				21F774E99073215D021F5C77BC2977BC /* Sources */,
+				1892F83EBC6DAEB02AA7F37685DA828B /* Frameworks */,
+				DE7DF7A84F784A74484BAB39AE375992 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -285,7 +216,7 @@
 			);
 			name = AnimatedFormFieldTableViewCell;
 			productName = AnimatedFormFieldTableViewCell;
-			productReference = 508225F34D29858C30C45A1F47648FA4 /* AnimatedFormFieldTableViewCell.framework */;
+			productReference = 7F318F9FC259433C61DA53FF7D3B288D /* AnimatedFormFieldTableViewCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0D53838BC91BBB93242F36A1D22777E8 /* Pods-AnimatedFormFieldTableViewCell_Example */ = {
@@ -304,7 +235,7 @@
 			);
 			name = "Pods-AnimatedFormFieldTableViewCell_Example";
 			productName = "Pods-AnimatedFormFieldTableViewCell_Example";
-			productReference = EA9D35B1491395AEEB50AD6F4AF3C8D6 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */;
+			productReference = F708F05C502109F591E5AB3CF0460F01 /* Pods_AnimatedFormFieldTableViewCell_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,33 +255,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F55DE4831747669D1BEBC79EA83887A3 /* Products */;
+			productRefGroup = 8737D35EC7703D29EBD62B3455D614DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				076039610163C3CCE8654C126ECD29C6 /* AnimatedFormFieldTableViewCell */,
 				0D53838BC91BBB93242F36A1D22777E8 /* Pods-AnimatedFormFieldTableViewCell_Example */,
-				0376A6B5D815A789D5CDFA69F597AFE6 /* Pods-AnimatedFormFieldTableViewCell_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		221AC43457DEE43AB792C1DC830992EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		243DC5CA418090D70D5A0D04C2358E2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6D1BAB349009F8F72C52A00122B3B242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7DF7A84F784A74484BAB39AE375992 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,20 +283,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25D1228346054E34A64919DC51985C66 /* Sources */ = {
+		21F774E99073215D021F5C77BC2977BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF620A97232CD5460F3BBC134B73A97 /* Pods-AnimatedFormFieldTableViewCell_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CBD1B639443C449BACCD86FC0C47403 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96C5DDC575309047D975640D7DD02531 /* AnimatedFormFieldTableViewCell-dummy.m in Sources */,
-				E5532D766095265659D86A4944AB533D /* ReplaceMe.swift in Sources */,
+				24E829A794451AC5619EDCF0DEE1F4F0 /* AnimatedFormFieldTableViewCell-dummy.m in Sources */,
+				8CFFCAAB05AD69C6DFE9325F63309808 /* AnimatedFormFieldTableViewCell.swift in Sources */,
+				B54CBC097DB9B23BDB78BC5942989160 /* AnimatedFormFieldTableViewCell.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,12 +304,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E44A2C2350504247CA3862A9F9B8686D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AnimatedFormFieldTableViewCell_Example";
-			target = 0D53838BC91BBB93242F36A1D22777E8 /* Pods-AnimatedFormFieldTableViewCell_Example */;
-			targetProxy = 143766EB2954ED78427D791EBDEC95F9 /* PBXContainerItemProxy */;
-		};
 		F0A6DD99614E91C3E8B8FB4C36E5DFC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnimatedFormFieldTableViewCell;
@@ -403,108 +313,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3AFDA8A41627E912153F7DB11EDB7398 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF454883145A67C16C917F785579A32 /* Pods-AnimatedFormFieldTableViewCell_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Tests/Pods-AnimatedFormFieldTableViewCell_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Tests/Pods-AnimatedFormFieldTableViewCell_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3DF1FCE5D07606686AF34B97B617B619 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 957AB72BE1EF65E6C4C88B75E394601E /* Pods-AnimatedFormFieldTableViewCell_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Tests/Pods-AnimatedFormFieldTableViewCell_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Tests/Pods-AnimatedFormFieldTableViewCell_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		631D0A38C7FE66EF76C609BD6665BB4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 988BD6EAA53860F887AB40B9BEB86D64 /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		1F2E81757D76E43042739BC5AEFFE429 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -552,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,7 +373,38 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		A1E2CDF649CF4C8B285A95E71370E391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADCE2CB1F56FC96588F85CF623EFF2B /* AnimatedFormFieldTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedFormFieldTableViewCell;
+				PRODUCT_NAME = AnimatedFormFieldTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D93A6DF471F8C9D1B0E2C1D667B8C5B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -615,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -628,74 +468,12 @@
 			};
 			name = Debug;
 		};
-		D8C8D00E320E4F93BC6A8D0170E5D4AF /* Release */ = {
+		E362CE7696945EACEBCD6AFE71D7945C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 820F73FFEDF8F33AA4218DA3F52306D0 /* AnimatedFormFieldTableViewCell.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.modulemap";
-				PRODUCT_MODULE_NAME = AnimatedFormFieldTableViewCell;
-				PRODUCT_NAME = AnimatedFormFieldTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DAAB0765C6BFAECFD9BFD60C8B6C2837 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 820F73FFEDF8F33AA4218DA3F52306D0 /* AnimatedFormFieldTableViewCell.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.modulemap";
-				PRODUCT_MODULE_NAME = AnimatedFormFieldTableViewCell;
-				PRODUCT_NAME = AnimatedFormFieldTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F77D60BB7ADE5FE2FF5BE99B40E11B4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 976A1A5D06336F03C8E28B4E1450571B /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */;
+			baseConfigurationReference = 0CDC6C7EDBD0861B110F6BCA157BE1ED /* Pods-AnimatedFormFieldTableViewCell_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -707,7 +485,74 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E61A023F825BBCB742EE058E6199A17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADCE2CB1F56FC96588F85CF623EFF2B /* AnimatedFormFieldTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedFormFieldTableViewCell/AnimatedFormFieldTableViewCell.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedFormFieldTableViewCell;
+				PRODUCT_NAME = AnimatedFormFieldTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3F3A88C1F8DE78307BB1C3D1F6C2125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDB71D3B735CEBA941E273A04A6139F /* Pods-AnimatedFormFieldTableViewCell_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedFormFieldTableViewCell_Example/Pods-AnimatedFormFieldTableViewCell_Example.modulemap";
@@ -730,8 +575,8 @@
 		2517DA8E8659ECD10336D3E706B24642 /* Build configuration list for PBXNativeTarget "Pods-AnimatedFormFieldTableViewCell_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F77D60BB7ADE5FE2FF5BE99B40E11B4D /* Debug */,
-				631D0A38C7FE66EF76C609BD6665BB4D /* Release */,
+				F3F3A88C1F8DE78307BB1C3D1F6C2125 /* Debug */,
+				E362CE7696945EACEBCD6AFE71D7945C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,26 +584,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				D93A6DF471F8C9D1B0E2C1D667B8C5B0 /* Debug */,
+				1F2E81757D76E43042739BC5AEFFE429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56D65F262C0B2EDAFC35D44335CA4DB8 /* Build configuration list for PBXNativeTarget "Pods-AnimatedFormFieldTableViewCell_Tests" */ = {
+		C7F3AE3ECB45E8662D4F0B060EE812BB /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AFDA8A41627E912153F7DB11EDB7398 /* Debug */,
-				3DF1FCE5D07606686AF34B97B617B619 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8C1FB804167563385430563082512FA /* Build configuration list for PBXNativeTarget "AnimatedFormFieldTableViewCell" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAAB0765C6BFAECFD9BFD60C8B6C2837 /* Debug */,
-				D8C8D00E320E4F93BC6A8D0170E5D4AF /* Release */,
+				A1E2CDF649CF4C8B285A95E71370E391 /* Debug */,
+				E61A023F825BBCB742EE058E6199A17B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

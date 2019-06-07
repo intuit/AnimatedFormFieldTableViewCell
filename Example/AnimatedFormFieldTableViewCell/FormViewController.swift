@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AnimatedFormFieldTableViewCell
 
 class FormViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate {
 
@@ -16,8 +17,11 @@ class FormViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Register the "AnimatedFormFieldTableViewCell" nib with the cell identifier string you would like to use
-        self.tableView.register(UINib(nibName: "AnimatedFormFieldTableViewCell", bundle: nil), forCellReuseIdentifier: "myCell")
+        /* Register the "AnimatedFormFieldTableViewCell" nib with the cell identifier string you would like to use,
+         and make sure to load it from the Pod's bundle */
+        let bundle = Bundle(for: AnimatedFormFieldTableViewCell.classForCoder())
+        tableView.register(UINib(nibName: "AnimatedFormFieldTableViewCell", bundle: bundle),
+                           forCellReuseIdentifier: "myCell")
     }
     
     
@@ -29,19 +33,20 @@ class FormViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
-
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //Dequeuing the cell using the reuse identifier and casting it to AnimatedFormFieldTableViewCell
-        if let cell = self.tableView.dequeueReusableCell(withIdentifier: "myCell") as? AnimatedFormFieldTableViewCell {
-
-            //Change placeholder text
-            cell.setLabelText(text: "Cell number \(indexPath.row)")
-
-            //Set the UITextFieldDelegate to be this view controller (Note that the cell's delegate is of type UITextFieldDelegate so there's no need to set the delegate for the TextField itself - only for the cell
-            cell.delegate = self
-            return cell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "myCell") as? AnimatedFormFieldTableViewCell
+            else {
+                return UITableViewCell()
         }
-        return UITableViewCell()
+        
+        //Change placeholder text
+        cell.setLabelText(text: "Cell number \(indexPath.row)")
+        
+        //Set the UITextFieldDelegate to be this view controller (Note that the cell's delegate is of type UITextFieldDelegate so there's no need to set the delegate for the TextField itself - only for the cell
+        cell.delegate = self
+        return cell
     }
 
 
@@ -53,6 +58,6 @@ class FormViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     //MARK - UITextFieldDelegate
     func textFieldDidEndEditing(_ textField: UITextField) {
-        self.titleLabel.text = textField.text
+        titleLabel.text = textField.text
     }
 }
