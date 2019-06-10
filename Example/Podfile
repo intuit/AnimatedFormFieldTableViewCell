@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'AnimatedFormFieldTableViewCell_Example' do
+  pod 'AnimatedFormFieldTableViewCell', :path => '../'
+end

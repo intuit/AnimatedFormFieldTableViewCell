@@ -1,0 +1,6 @@
+framework module AnimatedFormFieldTableViewCell {
+  umbrella header "AnimatedFormFieldTableViewCell-umbrella.h"
+
+  export *
+  module * { export * }
+}
